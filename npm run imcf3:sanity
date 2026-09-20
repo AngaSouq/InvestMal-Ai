@@ -1,0 +1,51 @@
+==================================================
+SCENARIO: Uptrend (Stage 3 OK) (300 candles)
+==================================================
+Regime: NORMAL
+Verdict: NO TRADE (Composite Score: 0.0747)
+Aligned Voters: 0/5 (Crossover Valid: false)
+Grade: NO TRADE
+MS Matches: 0 (Confirmed: 0, Forming: 0)
+MS Implemented: 41/52
+Entry Zone: NULL | Stop Loss: NULL | Take Profits: [] | Risk:Reward: NULL
+Narrative: Consensus threshold or risk criteria not met.
+✅ NaN/Undefined Scan Clean (0 issues)
+
+==================================================
+SCENARIO: Downtrend (Stage 3 Degraded) (300 candles)
+==================================================
+Regime: NORMAL
+Verdict: SHORT (Composite Score: -0.2474)
+Aligned Voters: 2/5 (Crossover Valid: false)
+Grade: NO TRADE
+MS Matches: 0 (Confirmed: 0, Forming: 0)
+MS Implemented: 41/52
+Entry Zone: NULL | Stop Loss: NULL | Take Profits: [] | Risk:Reward: NULL
+Narrative: Crossover rule failed (Structure vs Momentum divergence).
+✅ NaN/Undefined Scan Clean (0 issues)
+
+==================================================
+SCENARIO: High Volatility Flush (Stage 3 Unavailable) (300 candles)
+==================================================
+Regime: HIGH
+Verdict: NO TRADE (Composite Score: 0.0184)
+Aligned Voters: 0/5 (Crossover Valid: true)
+Grade: NO TRADE
+MS Matches: 0 (Confirmed: 0, Forming: 0)
+MS Implemented: 41/52
+Entry Zone: NULL | Stop Loss: NULL | Take Profits: [] | Risk:Reward: NULL
+Narrative: Consensus threshold or risk criteria not met.
+✅ NaN/Undefined Scan Clean (0 issues)
+
+==================================================
+SCENARIO: Flat Price Series (Stage 3 OK) (300 candles)
+==================================================
+Regime: LOW
+Verdict: NO TRADE (Composite Score: 0.0516)
+Aligned Voters: 0/5 (Crossover Valid: true)
+Grade: NO TRADE
+MS Matches: 0 (Confirmed: 0, Forming: 0)
+MS Implemented: 41/52
+Entry Zone: NULL | Stop Loss: NULL | Take Profits: [] | Risk:Reward: NULL
+Narrative: Consensus threshold or risk criteria not met.
+✅ NaN/Undefined Scan Clean (0 issues)
